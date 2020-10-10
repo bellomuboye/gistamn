@@ -1,0 +1,108 @@
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding: 0.25em 1.25em;
+		color: inherit;
+	}
+
+.navbar-toggler {
+	display: block !important;
+	padding: 0.25em 0;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+.em-link {
+    border-radius: 0.75em;
+}
+
+.bled {
+	color: #D85F06;
+	font-weight: bold;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #D85F06;
+  border-color: #D85F06;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #b84f05;
+  border-color: #a94904;
+}
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #b84f05;
+  border-color: #a94904;
+  box-shadow: 0 0 0 0.2rem rgba(249, 110, 11, 0.5);
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #D85F06;
+  border-color: #D85F06;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #a94904;
+  border-color: #b84f05;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(249, 110, 11, 0.5);
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: #D85F06;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #D85F06;
+  border-color: #D85F06;
+}
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(249, 110, 11, 0.5);
+}
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #D85F06;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #D85F06;
+  border-color: #D85F06;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(249, 110, 11, 0.5);
+}
+
+.navbar-nav .icon {
+	width: 25px;
+}
+
+.nav-icons {
+	padding: 0.25em 1.25em;
+}
+
+.navbar-nav .nav-icons .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.hero-btns {
+}
